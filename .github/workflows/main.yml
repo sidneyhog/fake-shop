@@ -17,7 +17,7 @@ jobs:
 
   cd:
     runs-on: ubuntu-latest
-    meeds: [ci]
+    needs: [ci]
     steps:
       - name: Autenticar n aws
         run: echo "Executando o comando aws configure"
