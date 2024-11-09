@@ -24,7 +24,7 @@ jobs:
           file: ./src/Dockerfile
           tags: |
             hogsidney/fake-shop:latest
-            hogsidney/fake-shop:v${{ github.run_mumber }}
+            hogsidney/fake-shop:v${{ github.run_number }}
         
   cd:
     runs-on: ubuntu-latest
