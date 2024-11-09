@@ -52,6 +52,5 @@ jobs:
         with:
           manifests: |
             ./k8s/deployment.yaml
-  
           images: |
             hogsidney/fake-shop:v${{ github.run_number }}
